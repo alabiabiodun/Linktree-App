@@ -8,7 +8,11 @@ export const Linktree = () => {
             <h5 id='twitter' className='text-center text-black-200 font-semibold p-2'>@AlabiAbiodun_O</h5>
             <h6 id='slack' className='hidden text-center text-black-200 font-semibold'>@alabiabiodun</h6>
         </div>
+<<<<<<< HEAD
         <div id='container_links' className='flex flex-col justify-center items-center p-3 m-2 w-100 h-100 text-black-400 font-medium'>
+=======
+        <div id='container_links' className='flex flex-col justify-center items-center p-3 m-2 w-100 text-black-400 font-medium'>
+>>>>>>> d6c6110f84f591b559ba280c48d73ba5ec56ad6c
             <div className='text-center w-4/5 h-auto border border-3 border-gray-200 rounded-xl shadow-xl hover:scale-[1.05] p-3 m-2 bg-gray-200'>
               <a id='btn__zuri' href='https://training.zuri.team/' rel="noreferrer">
                 <h5 className='text-md'>Register for Zuri Training on Software Development and Product Design</h5>
