@@ -42,17 +42,13 @@ export const Linktree = () => {
               <img src= './logo/slack.png' alt='slack_logo' className='w-15 h-10' />
               <img src='./logo/github.png' alt='github_logo' className='w-15 h-6'/>
             </div>
-            <div id='footer2' className='border-t-2 border-gray-200 flex flex-row justify-between items-center mt-20 w-auto gap-20'>
-              <div>
-                <h5 className='text-lg font-semibold pb-5 text-center'>Zuri<small className='text-5xl text-pink-700'>.</small>Internship</h5>
-              </div>
-              <div>
-                <h5 className='text-md text-gray-400'>HNG Internship 9 Frontend Task</h5>
-              </div>
-              <div>
-                <img src='./logo/zuri.jpg' alt='zuri_logo' className='w-25 h-10'/>
-              </div>
-            </div>            
+            <div id='footer2' className='flex border-t-2 border-gray-200 mt-20 w-100'>
+              <div className='flex flex-wrap items-center justify-left gap-10 w-100 p-3 m-2'>
+                <h5 className='pl-5 pr-5 text-lg font-semibold text-center'>Zuri<small className='text-3xl text-pink-700'>.</small>Internship</h5>
+                <h5 className='pl-5 pr-5 text-md text-center text-gray-500'>HNG Internship 9 Frontend Task</h5>
+                <img src='./logo/zuri.jpg' alt='zuri_logo' className='pl-5 pr-5 w-25 h-10'/>
+              </div>     
+            </div>
         </div>
     </div>
   )
