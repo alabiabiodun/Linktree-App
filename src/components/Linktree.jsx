@@ -42,7 +42,9 @@ export const Linktree = () => {
               </a>
             </div>
             <div className='text-center w-4/5 h-auto border border-3 border-gray-200 rounded-xl shadow-xl hover:scale-[1.05] p-3 m-2 bg-gray-200'>
-              <a id='contact' href='/contact' rel="noreferrer">Contact Me</a>
+              <a id='contact' href='/contact' rel="noreferrer">
+                Contact Me
+              </a>
             </div>
             <div id='footer1' className='flex flex-row justify-center items-center gap-2 mt-10'>
               <img src= './logo/slack.png' alt='slack_logo' className='w-15 h-10' />
