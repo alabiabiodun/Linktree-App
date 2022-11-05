@@ -6,14 +6,14 @@ const Contact = () => {
       <form className='mt-20 mb-20 font-inter'>
         <h1 className='text-3xl font-semibold text-black-400 leading-10'>Contact Me</h1>
         <p className='pt-2 text-lg font-normal text-gray-500'>Hi there, contact me to ask about anything you have in mind.</p>
-        <div id='container_name' className='flex flex-row justify-between mt-10 gap-8'>
+        <div id='container_name' className='lg:flex lg:flex-row lg:justify-between md:flex-none sm:flex-none mt-10 gap-8'>
           <div className='w-full'>
-            <label for="first_name" className='text-md text-gray-700 font-medium leading-6'>First Name</label>
-            <input id='first_name' name="first-name" type="text" placeholder="Enter your first name" required className='w-full p-2 border border-5 border-gray-300 text-gray-500 rounded-md mt-1'/>
+            <label for="first_name" className='text-md text-gray-700 font-medium leading-6'>First name</label>
+            <input id='first_name' name="first_name" type="text" placeholder="Enter your first name" required className='w-full p-2 border border-5 border-gray-300 text-gray-500 rounded-md mt-1'/>
           </div>
-          <div className='w-full'>
-            <label for="last_name" className='text-md text-gray-700 font-medium leading-6'>Last Name</label>
-            <input id='last_name' name="last-name" type="text" placeholder="Enter your last name" required className='w-full p-2 border border-5 border-gray-300 text-gray-500 rounded-md mt-1'/>
+          <div className='w-full mt-5 lg:mt-0 md:mt-3 sm:mt-3'>
+            <label for="last_name" className='text-md text-gray-700 font-medium leading-6'>Last name</label>
+            <input id='last_name' name="last_name" type="text" placeholder="Enter your last name" required className='w-full p-2 border border-5 border-gray-300 text-gray-500 rounded-md mt-1'/>
           </div>
         </div>
         <div id='container_email' className='mt-5'>
@@ -26,12 +26,12 @@ const Contact = () => {
             Send me a message and I'll reply you as soon as possible...
           </textarea>
         </div>
-        <div id='container_checkbox'>
-          <input id="checkbox" name="checkbox_base" type="checkbox" className='cursor-pointer w-100 border border-gray-100 bg-white-400 mt-5'/>
+        <div id='container_checkbox' className='mt-5'>
+          <input id="checkbox" name="checkbox_base" type="checkbox" className='cursor-pointer w-100 border border-gray-100 bg-white-400'/>
           <label for="checkbox" className='w-100 p-2 text-md text-gray-700 font-normal leading-6 rounded-md'>{`You agree to providing your data to {name} who may contact you.`}</label>
         </div>
-        <div id='container_button'>
-          <button id='btn__submit' type='button' className='w-full bg-blue-600 border border-1 border-blue-600 shadow-sm mt-5 rounded-md p-3 hover:scale-[1.05]'>
+        <div id='container_button' className='mt-6'>
+          <button id='btn__submit' type='button' className='w-full bg-blue-600 border border-1 border-blue-600 shadow-sm rounded-md p-3 hover:scale-[1.05]'>
             <h5 className='text-md text-white'>Send message</h5>
           </button>
         </div>        
@@ -40,7 +40,7 @@ const Contact = () => {
         <div className='flex flex-wrap gap-10 w-100 p-3 m-2'>
           <h5 className='pl-5 pr-5 text-lg font-semibold text-center'>Zuri<small className='text-5xl text-pink-700'>.</small>Internship</h5>
           <h5 className='pl-5 pr-5 text-md text-center text-gray-500 mt-6'>HNG Internship 9 Frontend Task</h5>
-          <img src='./logo/zuri.jpg' alt='zuri_logo' className='pl-5 pr-5 w-25 h-10 mt-4'/>
+          <img src='./logo/zuri.jpg' alt='zuri_logo' className='pl-4 pr-5 w-25 h-10 mt-4'/>
         </div>       
       </div>
     </div>
