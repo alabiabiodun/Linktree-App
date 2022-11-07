@@ -22,12 +22,12 @@ const Contact = () => {
         </div>
         <div id='container_message' className='mt-5'>
           <label for="message" className='text-md text-gray-700 font-medium leading-6'>Message</label>
-          <textarea id='message' name="comment" className='w-full p-4 border border-5 border-gray-300 text-md text-gray-500 rounded-md mt-1 font-normal resize-none leading-6'>
+          <textarea id='message' name="comment" className='w-full h-full p-3 border border-5 border-gray-300 text-md text-gray-500 rounded-md mt-1 font-normal resize-none leading-6'>
             Send me a message and I'll reply you as soon as possible...
           </textarea>
         </div>
-        <div id='container_checkbox' className='mt-5'>
-          <input id="checkbox" name="checkbox_base" type="checkbox" className='cursor-pointer w-100 border border-gray-100 bg-white-400'/>
+        <div id='container_checkbox' className='mt-5 flex flex-row gap-1'>
+          <input id="checkbox" name="checkbox_base" type="checkbox" className='cursor-pointer w-100 h-11 border border-gray-100 bg-white-400'/>
           <label for="checkbox" className='w-100 p-2 text-md text-gray-700 font-normal leading-6 rounded-md'>{`You agree to providing your data to {name} who may contact you.`}</label>
         </div>
         <div id='container_button' className='mt-6'>
@@ -36,7 +36,7 @@ const Contact = () => {
           </button>
         </div>        
       </form>
-      <div id='footer2' className='flex items-left justify-center border-t-2 border-gray-200 mt-20 w-100'>
+      <div id='footer2' className='flex flex-col items-left justify-center border-t-2 border-gray-200 mt-20 w-100'>
         <div className='flex flex-wrap gap-10 w-100 p-3 m-2'>
           <h5 className='pl-5 pr-5 text-lg font-semibold text-center'>Zuri<small className='text-5xl text-pink-700'>.</small>Internship</h5>
           <h5 className='pl-5 pr-5 text-md text-center text-gray-500 mt-6'>HNG Internship 9 Frontend Task</h5>

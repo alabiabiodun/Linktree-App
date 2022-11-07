@@ -3,9 +3,15 @@ import React from 'react'
 export const Linktree = () => {
   return (
     <div id='container' className='flex flex-col justify-center items-center border border-5 p-5 mt-5 mb-5 lg:ml-60 lg:mr-60 lg:mt-10 lg:mb-5 sm:m-10 md:m-20 rounded-xl w-100 h-100 bg-white-200'>
-        <div className='w-full pr-5'>
-            <img src='./icon/icon1.png' alt='share_icon' className='w-10 h-10 float-right hover:scale-[1.2]' />
-          </div>
+        <div className='w-full sm:pr-6 md:pr-10 lg:pr-20'>
+          <picture>
+            <source media="(max-width:480px)" srcset="./icon/icon2.png" />
+            <source media="(max-width:769px)" srcset="./icon/icon2.png" />
+            <source media="(max-width:1280px)" srcset="./icon/icon1.png" />
+            <img src="./icon/icon1.png" alt="icon" className='w-10 h-10 float-right hover:scale-[1.1]' />
+          </picture>
+          {/* <img src='./icon/icon1.png' alt='icon' className='w-10 h-10 float-right hover:scale-[1.2]' /> */}
+        </div>
         <div id='container_profile' className='hover:scale-[1.05]'>
             <img id='profile__img' src='./img/alabiabiodun.jpg' alt='profile_pix' className='w-50 h-40 rounded-full'  />
             <h5 id='twitter' className='text-center text-black-200 font-semibold p-2'>@AlabiAbiodun_O</h5>
